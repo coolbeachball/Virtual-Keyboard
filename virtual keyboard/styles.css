@@ -1,0 +1,151 @@
+body {
+    background-color: #000000;
+}
+
+input {
+    font-size: 24px;
+    background-color: #3e3939;
+    color: #f4eee0;
+    border: 3px solid #29282b;
+    max-width: 700px;
+    width: 100%;
+    height: 4vh;
+    outline: none;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+/* keyboard */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34vh;
+}
+
+.keyboard-wrapp {
+    max-width: 900px;
+    width: 100%;
+    background-color: #2c2727;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+/* keys */
+
+.key {
+    border: 2px solid #747379;
+    width: 40px;
+    height: 40px;
+    color: #f4eee0;
+    font-size: larger;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key:hover {
+    background-color: #7a7474;
+}
+
+.key:active {
+    background-color: #3e3939;
+}
+
+.key::selection {
+    background-color: transparent;
+}
+
+/* special keys */
+
+/* back-space */
+.back-space-key {
+    width: 100px;
+}
+
+/* tab */
+.tab-key {
+    width: 70px;
+}
+
+/* back-slash */
+.back-slash-key {
+    width: 70px;
+}
+
+/* caps-lock */
+.caps-lock-key {
+    width: 100px;
+}
+
+/* enter */
+.enter-key {
+    width: 105px;
+    background-color: #3e3939;
+}
+
+/* shift */
+.shift-key {
+    width: 135px;
+}
+
+/* space */
+.space-key {
+    width: 340px;
+    margin-left: 270px;
+    margin-right: auto;
+}
+
+/* tab, back-space, caps-lock and shift key & spacebar pseudo class change */
+
+.tab-key,
+.back-space-key,
+.caps-lock-key,
+.shift-key,
+.space-key {
+    background-color: #3e3939;
+}
+
+.tab-key:hover,
+.back-space-key:hover,
+.caps-lock-key:hover,
+.shift-key:hover,
+.space-key:hover {
+    background-color: #5d5757;
+}
+
+.tab-key:active,
+.back-space-key:active,
+.caps-lock-key:active,
+.shift-key:active,
+.space-key:active {
+    background-color: #2c2727;
+}
+
+/* sup */
+
+sup {
+    color: rgb(127, 127, 131);
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+sup::selection {
+    background-color: transparent;
+}
